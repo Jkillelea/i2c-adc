@@ -19,21 +19,10 @@ U 1 1 5BF30CB1
 P 1750 2400
 F 0 "U1" H 1750 3378 50  0000 C CNN
 F 1 "ADC128D818" H 1750 3287 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 1750 2400 50  0001 C CIN
+F 2 "Footprints:TSSOP-16_4.4x5mm_P0.65mm" H 1750 2400 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/adc128d818.pdf" H 1750 2400 50  0001 C CNN
 	1    1750 2400
 	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x08_Top_Bottom J5
-U 1 1 5BF31AB7
-P 4450 2100
-F 0 "J5" H 4500 2617 50  0000 C CNN
-F 1 "Conn_02x08_Top_Bottom" H 4500 2526 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x08_Pitch2.54mm" H 4450 2100 50  0001 C CNN
-F 3 "~" H 4450 2100 50  0001 C CNN
-	1    4450 2100
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2250 1800 2450 1800
@@ -285,7 +274,7 @@ U 1 1 5BF3D2A7
 P 2050 6550
 F 0 "A1" H 2050 7728 50  0000 C CNN
 F 1 "Arduino_UNO_R3" H 2050 7637 50  0000 C CNN
-F 2 "Module:Arduino_UNO_R3" H 2200 5500 50  0001 L CNN
+F 2 "Footprints:Arduino_UNO_R3" H 2200 5500 50  0001 L CNN
 F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 1850 7600 50  0001 C CNN
 	1    2050 6550
 	-1   0    0    -1  
@@ -683,21 +672,10 @@ U 1 1 5BF7FD7D
 P 6650 2450
 F 0 "U3" H 6650 3428 50  0000 C CNN
 F 1 "ADC128D818" H 6650 3337 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 6650 2450 50  0001 C CIN
+F 2 "Footprints:TSSOP-16_4.4x5mm_P0.65mm" H 6650 2450 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/adc128d818.pdf" H 6650 2450 50  0001 C CNN
 	1    6650 2450
 	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x08_Top_Bottom J7
-U 1 1 5BF7FD84
-P 9350 2150
-F 0 "J7" H 9400 2667 50  0000 C CNN
-F 1 "Conn_02x08_Top_Bottom" H 9400 2576 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x08_Pitch2.54mm" H 9350 2150 50  0001 C CNN
-F 3 "~" H 9350 2150 50  0001 C CNN
-	1    9350 2150
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7150 1850 7350 1850
@@ -1053,30 +1031,6 @@ Connection ~ 6650 800
 Wire Wire Line
 	6650 800  6650 1650
 $Comp
-L Device:CP C7
-U 1 1 5BF7FE6A
-P 6300 950
-F 0 "C7" H 6418 996 50  0000 L CNN
-F 1 "1U ELEC" H 6418 905 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_5x5.8" H 6338 800 50  0001 C CNN
-F 3 "~" H 6300 950 50  0001 C CNN
-	1    6300 950 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6300 800  6650 800 
-$Comp
-L power:GND #PWR019
-U 1 1 5BF7FE72
-P 6300 1150
-F 0 "#PWR019" H 6300 900 50  0001 C CNN
-F 1 "GND" H 6305 977 50  0000 C CNN
-F 2 "" H 6300 1150 50  0001 C CNN
-F 3 "" H 6300 1150 50  0001 C CNN
-	1    6300 1150
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR023
 U 1 1 5BF7FE78
 P 6900 1150
@@ -1089,8 +1043,6 @@ F 3 "" H 6900 1150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6900 1100 6900 1150
-Wire Wire Line
-	6300 1100 6300 1150
 Text Label 6650 1250 1    50   ~ 0
 VIN
 Text GLabel 5900 1850 0    50   Input ~ 0
@@ -1159,21 +1111,10 @@ U 1 1 5BFE999A
 P 5650 5400
 F 0 "U2" H 5650 6378 50  0000 C CNN
 F 1 "ADC128D818" H 5650 6287 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 5650 5400 50  0001 C CIN
+F 2 "Footprints:TSSOP-16_4.4x5mm_P0.65mm" H 5650 5400 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/adc128d818.pdf" H 5650 5400 50  0001 C CNN
 	1    5650 5400
 	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x08_Top_Bottom J6
-U 1 1 5BFE99A1
-P 8350 5100
-F 0 "J6" H 8400 5617 50  0000 C CNN
-F 1 "Conn_02x08_Top_Bottom" H 8400 5526 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x08_Pitch2.54mm" H 8350 5100 50  0001 C CNN
-F 3 "~" H 8350 5100 50  0001 C CNN
-	1    8350 5100
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6150 4800 6350 4800
@@ -1529,30 +1470,6 @@ Connection ~ 5650 3750
 Wire Wire Line
 	5650 3750 5650 4600
 $Comp
-L Device:CP C5
-U 1 1 5BFE9A79
-P 5300 3900
-F 0 "C5" H 5418 3946 50  0000 L CNN
-F 1 "1U ELEC" H 5418 3855 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_5x5.8" H 5338 3750 50  0001 C CNN
-F 3 "~" H 5300 3900 50  0001 C CNN
-	1    5300 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5300 3750 5650 3750
-$Comp
-L power:GND #PWR014
-U 1 1 5BFE9A81
-P 5300 4100
-F 0 "#PWR014" H 5300 3850 50  0001 C CNN
-F 1 "GND" H 5305 3927 50  0000 C CNN
-F 2 "" H 5300 4100 50  0001 C CNN
-F 3 "" H 5300 4100 50  0001 C CNN
-	1    5300 4100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR017
 U 1 1 5BFE9A87
 P 5900 4100
@@ -1565,8 +1482,6 @@ F 3 "" H 5900 4100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5900 4050 5900 4100
-Wire Wire Line
-	5300 4050 5300 4100
 Text Label 5650 4200 1    50   ~ 0
 VIN
 Text GLabel 4900 4800 0    50   Input ~ 0
@@ -1643,4 +1558,37 @@ Wire Wire Line
 	850  6250 1250 6250
 Wire Wire Line
 	1250 6250 1250 6200
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J5
+U 1 1 5C07D8AC
+P 4450 2100
+F 0 "J5" H 4500 2617 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 4500 2526 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x08_Pitch2.54mm" H 4450 2100 50  0001 C CNN
+F 3 "~" H 4450 2100 50  0001 C CNN
+	1    4450 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J7
+U 1 1 5C07DA7D
+P 9350 2150
+F 0 "J7" H 9400 2667 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 9400 2576 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x08_Pitch2.54mm" H 9350 2150 50  0001 C CNN
+F 3 "~" H 9350 2150 50  0001 C CNN
+	1    9350 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J6
+U 1 1 5C07E2C2
+P 8350 5100
+F 0 "J6" H 8400 5617 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 8400 5526 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x08_Pitch2.54mm" H 8350 5100 50  0001 C CNN
+F 3 "~" H 8350 5100 50  0001 C CNN
+	1    8350 5100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
