@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:adc-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -19,7 +20,7 @@ U 1 1 5BF30CB1
 P 1750 2400
 F 0 "U1" H 1750 3378 50  0000 C CNN
 F 1 "ADC128D818" H 1750 3287 50  0000 C CNN
-F 2 "Footprints:TSSOP-16_4.4x5mm_P0.65mm" H 1750 2400 50  0001 C CIN
+F 2 "footprints:TSSOP-16_4.4x5mm_P0.65mm" H 1750 2400 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/adc128d818.pdf" H 1750 2400 50  0001 C CNN
 	1    1750 2400
 	-1   0    0    -1  
@@ -659,7 +660,7 @@ U 1 1 5BF7FD7D
 P 6650 2450
 F 0 "U3" H 6650 3428 50  0000 C CNN
 F 1 "ADC128D818" H 6650 3337 50  0000 C CNN
-F 2 "Footprints:TSSOP-16_4.4x5mm_P0.65mm" H 6650 2450 50  0001 C CIN
+F 2 "footprints:TSSOP-16_4.4x5mm_P0.65mm" H 6650 2450 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/adc128d818.pdf" H 6650 2450 50  0001 C CNN
 	1    6650 2450
 	-1   0    0    -1  
@@ -957,35 +958,6 @@ F 3 "" H 8100 3100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8100 3050 8100 3100
-$Comp
-L Device:CP C11
-U 1 1 5BF7FE39
-P 7600 2900
-F 0 "C11" H 7718 2946 50  0000 L CNN
-F 1 "1U ELEC" H 7718 2855 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_5x5.8" H 7638 2750 50  0001 C CNN
-F 3 "~" H 7600 2900 50  0001 C CNN
-	1    7600 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7150 2750 7600 2750
-Connection ~ 7600 2750
-Wire Wire Line
-	7600 2750 8100 2750
-$Comp
-L power:GND #PWR029
-U 1 1 5BF7FE43
-P 7600 3100
-F 0 "#PWR029" H 7600 2850 50  0001 C CNN
-F 1 "GND" H 7605 2927 50  0000 C CNN
-F 2 "" H 7600 3100 50  0001 C CNN
-F 3 "" H 7600 3100 50  0001 C CNN
-	1    7600 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7600 3050 7600 3100
 Text Label 7150 2750 0    50   ~ 0
 VREF
 $Comp
@@ -1096,7 +1068,7 @@ U 1 1 5BFE999A
 P 5650 5400
 F 0 "U2" H 5650 6378 50  0000 C CNN
 F 1 "ADC128D818" H 5650 6287 50  0000 C CNN
-F 2 "Footprints:TSSOP-16_4.4x5mm_P0.65mm" H 5650 5400 50  0001 C CIN
+F 2 "footprints:TSSOP-16_4.4x5mm_P0.65mm" H 5650 5400 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/adc128d818.pdf" H 5650 5400 50  0001 C CNN
 	1    5650 5400
 	-1   0    0    -1  
@@ -1394,35 +1366,6 @@ F 3 "" H 7100 6050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7100 6000 7100 6050
-$Comp
-L Device:CP C8
-U 1 1 5BFE9A56
-P 6600 5850
-F 0 "C8" H 6718 5896 50  0000 L CNN
-F 1 "1U ELEC" H 6718 5805 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_5x5.8" H 6638 5700 50  0001 C CNN
-F 3 "~" H 6600 5850 50  0001 C CNN
-	1    6600 5850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6150 5700 6600 5700
-Connection ~ 6600 5700
-Wire Wire Line
-	6600 5700 7100 5700
-$Comp
-L power:GND #PWR020
-U 1 1 5BFE9A60
-P 6600 6050
-F 0 "#PWR020" H 6600 5800 50  0001 C CNN
-F 1 "GND" H 6605 5877 50  0000 C CNN
-F 2 "" H 6600 6050 50  0001 C CNN
-F 3 "" H 6600 6050 50  0001 C CNN
-	1    6600 6050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6600 6000 6600 6050
 Text Label 6150 5700 0    50   ~ 0
 VREF
 $Comp
@@ -1577,4 +1520,8 @@ F 3 "~" H 8350 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 1250 6600
+Wire Wire Line
+	7150 2750 8100 2750
+Wire Wire Line
+	6150 5700 7100 5700
 $EndSCHEMATC
