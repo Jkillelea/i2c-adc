@@ -269,17 +269,6 @@ Wire Wire Line
 	4800 1800 4800 1900
 Connection ~ 4800 1900
 $Comp
-L MCU_Module:Arduino_UNO_R3 A1
-U 1 1 5BF3D2A7
-P 2050 6550
-F 0 "A1" H 2050 7728 50  0000 C CNN
-F 1 "Arduino_UNO_R3" H 2050 7637 50  0000 C CNN
-F 2 "Footprints:Arduino_UNO_R3" H 2200 5500 50  0001 L CNN
-F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 1850 7600 50  0001 C CNN
-	1    2050 6550
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x08_Male J1
 U 1 1 5BF40ED2
 P 1050 6200
@@ -302,89 +291,87 @@ Text GLabel 1250 6400 2    50   Input ~ 0
 GND
 Text GLabel 1250 6500 2    50   Input ~ 0
 GND
-Text GLabel 1250 6600 2    50   Input ~ 0
-VIN
 NoConn ~ 1250 5900
 $Comp
 L Connector:Conn_01x06_Male J2
 U 1 1 5BF499A8
-P 1050 7100
-F 0 "J2" H 1156 7478 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 1156 7387 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x06_Pitch2.54mm" H 1050 7100 50  0001 C CNN
-F 3 "~" H 1050 7100 50  0001 C CNN
-	1    1050 7100
-	1    0    0    -1  
+P 1050 7200
+F 0 "J2" H 1156 7578 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 1156 7487 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x06_Pitch2.54mm" H 1050 7200 50  0001 C CNN
+F 3 "~" H 1050 7200 50  0001 C CNN
+	1    1050 7200
+	1    0    0    1   
 $EndComp
-Text GLabel 1250 6900 2    50   Input ~ 0
-A0
-Text GLabel 1250 7000 2    50   Input ~ 0
-A1
-Text GLabel 1250 7100 2    50   Input ~ 0
-A2
-Text GLabel 1250 7200 2    50   Input ~ 0
-A3
-Text GLabel 1250 7300 2    50   Input ~ 0
-A4
 Text GLabel 1250 7400 2    50   Input ~ 0
+A0
+Text GLabel 1250 7300 2    50   Input ~ 0
+A1
+Text GLabel 1250 7200 2    50   Input ~ 0
+A2
+Text GLabel 1250 7100 2    50   Input ~ 0
+A3
+Text GLabel 1250 7000 2    50   Input ~ 0
+A4
+Text GLabel 1250 6900 2    50   Input ~ 0
 A5
 $Comp
 L Connector:Conn_01x08_Male J3
 U 1 1 5BF4A69B
-P 3050 6300
-F 0 "J3" H 3023 6180 50  0000 R CNN
-F 1 "Conn_01x08_Male" H 3023 6271 50  0000 R CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x08_Pitch2.54mm" H 3050 6300 50  0001 C CNN
-F 3 "~" H 3050 6300 50  0001 C CNN
-	1    3050 6300
-	-1   0    0    1   
+P 2850 7100
+F 0 "J3" H 2823 6980 50  0000 R CNN
+F 1 "Conn_01x08_Male" H 2823 7071 50  0000 R CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x08_Pitch2.54mm" H 2850 7100 50  0001 C CNN
+F 3 "~" H 2850 7100 50  0001 C CNN
+	1    2850 7100
+	-1   0    0    -1  
 $EndComp
-Text GLabel 2850 5900 0    50   Input ~ 0
+Text GLabel 2650 7500 0    50   Input ~ 0
 D0
-Text GLabel 2850 6000 0    50   Input ~ 0
+Text GLabel 2650 7400 0    50   Input ~ 0
 D1
-Text GLabel 2850 6100 0    50   Input ~ 0
+Text GLabel 2650 7300 0    50   Input ~ 0
 D2
-Text GLabel 2850 6200 0    50   Input ~ 0
+Text GLabel 2650 7200 0    50   Input ~ 0
 D3
-Text GLabel 2850 6300 0    50   Input ~ 0
+Text GLabel 2650 7100 0    50   Input ~ 0
 D4
-Text GLabel 2850 6400 0    50   Input ~ 0
+Text GLabel 2650 7000 0    50   Input ~ 0
 D5
-Text GLabel 2850 6500 0    50   Input ~ 0
+Text GLabel 2650 6900 0    50   Input ~ 0
 D6
-Text GLabel 2850 6600 0    50   Input ~ 0
+Text GLabel 2650 6800 0    50   Input ~ 0
 D7
 $Comp
 L Connector:Conn_01x10_Male J4
 U 1 1 5BF4AB57
-P 3050 7250
-F 0 "J4" H 3023 7130 50  0000 R CNN
-F 1 "Conn_01x10_Male" H 3023 7221 50  0000 R CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x10_Pitch2.54mm" H 3050 7250 50  0001 C CNN
-F 3 "~" H 3050 7250 50  0001 C CNN
-	1    3050 7250
-	-1   0    0    1   
+P 2850 6150
+F 0 "J4" H 2823 6030 50  0000 R CNN
+F 1 "Conn_01x10_Male" H 2823 6121 50  0000 R CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x10_Pitch2.54mm" H 2850 6150 50  0001 C CNN
+F 3 "~" H 2850 6150 50  0001 C CNN
+	1    2850 6150
+	-1   0    0    -1  
 $EndComp
-Text GLabel 2850 6750 0    50   Input ~ 0
+Text GLabel 2650 6650 0    50   Input ~ 0
 D8
-Text GLabel 2850 6850 0    50   Input ~ 0
+Text GLabel 2650 6550 0    50   Input ~ 0
 D9
-Text GLabel 2850 6950 0    50   Input ~ 0
+Text GLabel 2650 6450 0    50   Input ~ 0
 D10
-Text GLabel 2850 7050 0    50   Input ~ 0
+Text GLabel 2650 6350 0    50   Input ~ 0
 D11
-Text GLabel 2850 7150 0    50   Input ~ 0
+Text GLabel 2650 6250 0    50   Input ~ 0
 D12
-Text GLabel 2850 7250 0    50   Input ~ 0
+Text GLabel 2650 6150 0    50   Input ~ 0
 D13
-Text GLabel 2850 7350 0    50   Input ~ 0
+Text GLabel 2650 6050 0    50   Input ~ 0
 GND
-Text GLabel 2850 7450 0    50   Input ~ 0
+Text GLabel 2650 5950 0    50   Input ~ 0
 AREF
-Text GLabel 2850 7550 0    50   Input ~ 0
+Text GLabel 2650 5850 0    50   Input ~ 0
 SDA
-Text GLabel 2850 7650 0    50   Input ~ 0
+Text GLabel 2650 5750 0    50   Input ~ 0
 SCL
 $Comp
 L power:VCC #PWR01
@@ -1043,8 +1030,6 @@ F 3 "" H 6900 1150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6900 1100 6900 1150
-Text Label 6650 1250 1    50   ~ 0
-VIN
 Text GLabel 5900 1850 0    50   Input ~ 0
 SDA
 Text GLabel 5900 1950 0    50   Input ~ 0
@@ -1591,4 +1576,5 @@ F 3 "~" H 8350 5100 50  0001 C CNN
 	1    8350 5100
 	1    0    0    -1  
 $EndComp
+NoConn ~ 1250 6600
 $EndSCHEMATC
