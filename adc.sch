@@ -20,7 +20,7 @@ U 1 1 5BF30CB1
 P 1750 2400
 F 0 "U1" H 1750 3378 50  0000 C CNN
 F 1 "ADC128D818" H 1750 3287 50  0000 C CNN
-F 2 "footprints:TSSOP-16_4.4x5mm_P0.65mm" H 1750 2400 50  0001 C CIN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 1750 2400 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/adc128d818.pdf" H 1750 2400 50  0001 C CNN
 	1    1750 2400
 	-1   0    0    -1  
@@ -660,7 +660,7 @@ U 1 1 5BF7FD7D
 P 6650 2450
 F 0 "U3" H 6650 3428 50  0000 C CNN
 F 1 "ADC128D818" H 6650 3337 50  0000 C CNN
-F 2 "footprints:TSSOP-16_4.4x5mm_P0.65mm" H 6650 2450 50  0001 C CIN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 6650 2450 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/adc128d818.pdf" H 6650 2450 50  0001 C CNN
 	1    6650 2450
 	-1   0    0    -1  
@@ -1068,7 +1068,7 @@ U 1 1 5BFE999A
 P 5650 5400
 F 0 "U2" H 5650 6378 50  0000 C CNN
 F 1 "ADC128D818" H 5650 6287 50  0000 C CNN
-F 2 "footprints:TSSOP-16_4.4x5mm_P0.65mm" H 5650 5400 50  0001 C CIN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 5650 5400 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/adc128d818.pdf" H 5650 5400 50  0001 C CNN
 	1    5650 5400
 	-1   0    0    -1  
