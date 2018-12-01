@@ -1532,6 +1532,6 @@ Text Notes 8150 7650 0    50   ~ 0
 2018 Nov 29
 Text Notes 10600 7650 0    50   ~ 0
 1
-Text Notes 7000 6850 0    128  ~ 0
-Property General Atomics / Team OTheRS
+Text Notes 7000 7000 0    128  ~ 0
+Property  of Team OTheRS\nJacob Killelea
 $EndSCHEMATC

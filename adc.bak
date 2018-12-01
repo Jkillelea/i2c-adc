@@ -1526,4 +1526,12 @@ Wire Wire Line
 	6150 5700 7100 5700
 Text Notes 1600 5600 0    50   ~ 0
 Arduino headers
+Text Notes 7400 7500 0    79   ~ 16
+ADC128 Thermistor Arduino Sheild
+Text Notes 8150 7650 0    50   ~ 0
+2018 Nov 29
+Text Notes 10600 7650 0    50   ~ 0
+1
+Text Notes 7000 6850 0    128  ~ 0
+Property General Atomics / Team OTheRS
 $EndSCHEMATC
