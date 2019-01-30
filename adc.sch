@@ -242,7 +242,7 @@ ADC128 Thermistor Arduino Sheild
 Text Notes 8150 7650 0    50   ~ 0
 2018 Nov 29
 Text Notes 10600 7650 0    50   ~ 0
-2.0 (prelim)
+2.0 (final)
 Text Notes 7000 7000 0    128  ~ 0
 Property  of Team OTheRS\nJacob Killelea
 Wire Wire Line
